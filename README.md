@@ -9,3 +9,6 @@
 + Bootstrap
 + VSCode
 + Github
+
+### Live Demo Link:
+[School System](https://saad-zireeni.github.io/school-system/)
