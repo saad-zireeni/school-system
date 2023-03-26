@@ -40,7 +40,7 @@
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
               <li><a href="#about">ABOUT</a></li>
               <li><a href="#pricing">PRICING</a></li>
               <li><a href="#contact">CONTACT</a></li>
@@ -102,6 +102,17 @@
                   </div>
                 </div>
 
+                <div class="major-container">
+                  <label for="major">Major:</label>
+
+                  <select name="major" id="major">
+                    <option value="Administration">Administration</option>
+                    <option value="IT">IT</option>
+                    <option value="Science">Science</option>
+                    <option value="Art">Art</option>
+                  </select>
+                </div>
+
                 <div class="phone-container">
                   <label for="phone">Phone</label>
                   <input
@@ -113,7 +124,7 @@
                   />
                 </div>
 
-                <div class="grade-container">
+                <!-- <div class="grade-container">
                   <label for="grade">Grade</label>
                   <input
                     type="number"
@@ -123,7 +134,7 @@
                     min="0"
                     max="100"
                   />
-                </div>
+                </div> -->
 
                 <br />
                 <div class="btn-container">
@@ -133,18 +144,13 @@
             </div>
           </div>
           <div class="col-sm-6">
-            <div class="table-container">
-              <div class="h1-container"><h1>Students Table</h1></div>
-              <table class="table table-hover table-striped" id="table">
-                <tr>
-                  <th>Name</th>
-                  <th>Date of Birth</th>
-                  <th>Gender</th>
-                  <th>Phone</th>
-                  <th>Grade</th>
-                </tr>
+            
+              <div class="h1-container"><h1>Students Cards</h1></div>
 
-              </table>
+              <div class="cards-container" id="cards-container">
+
+    
+
             </div>
           </div>
         </div>
@@ -156,10 +162,8 @@
         <span class="glyphicon glyphicon-chevron-up"></span>
       </a>
       <p>
-        School System made by: 
-        <a href="https://www.instagram.com/saad_zireeni/"
-          >Saad Zireeni</a
-        >
+        School System made by:
+        <a href="https://www.instagram.com/saad_zireeni/">Saad Zireeni</a>
       </p>
     </footer>
 
