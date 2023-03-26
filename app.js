@@ -39,7 +39,7 @@ function render(students_list){
         card.classList.add('card');
 
         let img_holder = document.createElement('img');
-        img_holder.src = isMale(student) ? "/assets/avatar_male.png" : "/assets/avatar_female.png";
+        img_holder.src = isMale(student) ? "./assets/avatar_male.png" : "./assets/avatar_female.png";
         img_holder.style.width  = '100%';
         card.appendChild(img_holder);
 
